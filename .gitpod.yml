@@ -1,0 +1,10 @@
+image:
+  file: .gitpod.dockerfile
+tasks:
+ - init: . ${GITPOD_REPO_ROOT}/init_tasks.sh
+ - openMode: tab-before
+ - command: >
+    echo "export C9_USER='gitpod'" >> /home/gitpod/.bashrc
+ - command: >
+    rm ${GITPOD_REPO_ROOT}/init_tasks.sh
+    rm ${GITPOD_REPO_ROOT}/.gitpod*
