@@ -16,7 +16,7 @@ USER gitpod
 # C9USER is temporary to allow the MySQL Gist to run
 ENV C9_USER="gitpod"
 ENV PORT="8080"
-ENV IP="127.0.0.1"
+ENV IP="0.0.0.0"
 
 USER root
 # Switch back to root to allow IDE to load
