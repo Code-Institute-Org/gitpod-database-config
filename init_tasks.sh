@@ -14,3 +14,5 @@ mysql -e "GRANT ALL PRIVILEGES ON *.* TO '${C9_USER}'@'%' WITH GRANT OPTION;"
 echo "Checking for pip upgrade"
 pip3 install --upgrade pip
 echo "Done"
+rm $GITPOD_REPO_ROOT/.gitpod*
+rm $GITPOD_REPO_ROOT/init_tasks.sh
