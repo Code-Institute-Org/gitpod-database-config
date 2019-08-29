@@ -17,6 +17,7 @@ USER gitpod
 ENV C9_USER="gitpod"
 ENV PORT="8080"
 ENV IP="0.0.0.0"
+ENV C9_HOSTNAME="localhost"
 
 USER root
 # Switch back to root to allow IDE to load
