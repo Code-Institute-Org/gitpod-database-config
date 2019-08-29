@@ -1,8 +1,4 @@
 image:
   file: .gitpod.dockerfile
 tasks:
- - init: . ${GITPOD_REPO_ROOT}/init_tasks.sh
- - openMode: tab-before
- - command: >
-    rm ${GITPOD_REPO_ROOT}/.gitpod*
-    ${GITPOD_REPO_ROOT}/init_tasks.sh
+ - init: . ${GITPOD_REPO_ROOT}/init_tasks.sh    
