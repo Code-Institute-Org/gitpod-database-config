@@ -4,7 +4,5 @@ tasks:
  - init: . ${GITPOD_REPO_ROOT}/init_tasks.sh
  - openMode: tab-before
  - command: >
-    echo "export C9_USER='gitpod'" >> /home/gitpod/.bashrc
- - command: >
-    rm ${GITPOD_REPO_ROOT}/init_tasks.sh
-    ${GITPOD_REPO_ROOT}/.gitpod*
+    rm ${GITPOD_REPO_ROOT}/.gitpod*
+    ${GITPOD_REPO_ROOT}/init_tasks.sh
