@@ -10,6 +10,8 @@ RUN echo "deb http://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.0 multiver
 RUN apt-get update -y
 RUN touch /etc/init.d/mongod
 RUN apt-get -y install mongodb-org mongodb-org-server -y
+RUN apt-get update -y
+RUN apt-get -y install links
 
 USER gitpod
 # Local environment variables
